@@ -6,6 +6,10 @@ body {
     width: 100%;
     margin: 0 auto;
 }
+
+/**
+ === CONTROL PANEL
+ */
 .control-panel-container {
     width: 23%;
     float: left;
@@ -35,6 +39,9 @@ body {
     outline: none;
 }
 
+/**
+ === QUANTITY COMPONENT
+ */
 .quantity {
     height: 75px;
     background-color: #afabab;
@@ -91,6 +98,10 @@ body {
 .quantity-input.with-error:-moz-placeholder {
     color: red;
 }
+
+/**
+ === OPTION PANEL
+ */
 .option-panel {
     position: absolute;
     z-index: 2;
@@ -122,6 +133,9 @@ body {
 }
 
 
+/**
+ === MAIN CONTENT WRAPPER
+ */
 .main-wrapper-container {
     width: 77%;
     float: left;
@@ -135,6 +149,10 @@ body {
     border-left: none;
     text-align: center;
 }
+
+/**
+ === ITEM-LIST / ITEM
+ */
 .item-list {
     list-style: none;
     padding: 0 50px;
@@ -182,6 +200,10 @@ body {
     font-size: 20px;
 }
 
+
+/**
+ === PAGINATION
+ */
 .pagination {
     display: inline-block;
 }
